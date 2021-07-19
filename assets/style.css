@@ -115,3 +115,28 @@ p{
     width: 100%;
     height: auto;
 }
+
+textarea {
+    resize: none;
+}
+
+.text{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+@charset "UTF-8";
+
+.svg-inline--fa{
+    vertical-align: -0.200em;
+}
+
+.rounded-social-buttons{
+    text-align: center;
+}
