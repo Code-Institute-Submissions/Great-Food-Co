@@ -222,8 +222,61 @@ textarea {
        top: 50%;       
        margin-left: -10%;
        position: absolute;
-       margin-top: -10%;
-       
-       
-       
+       margin-top: -10%;  
+       padding: 10px 20px 50px 30px;
+       background: #fff;
+       border-radius: 5px;
+       text-align: center;
+       box-shadow: 10px 10px 15px rgba(0,0,0,0.1);
+            
    } 
+
+   .wrapper header{
+       font-size: 35px;
+       font-weight: 600;
+   }
+.wrapper form{
+    margin: 40px 0;
+}
+
+form .field{
+    width: 100%;
+    margin-bottom: 20px;
+}
+form .field.shake{
+    animation: shake 0.3s ease-in-out;
+}
+
+@keyframes shake {
+    0%, 100%{
+        margin-left: 0px;
+    }
+    20%, 80%{
+        margin-left -12px
+    } 
+    40%, 60%{
+        margin-left -12Px ;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
