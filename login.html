@@ -22,36 +22,28 @@
         <ul>
             <li><a class="active" href="index.html">Home</a></li>
             <li><a href="menu.html">Menu</a></li>
-            <li><a href="login.html">Login</a></li>
+            
             <li><a href="signup.html">Sign Up</a></li>
         </ul>
     </nav>
     <br>
-    <form method="POST" action="/login">
-        <div class="field">
-            <div class="control">
-                <input class="input is-large" type="email" name="email" placeholder="Your Email" autofocus="">
-            </div>
+    <form action="sample.html" method=" get,post">
+    <main id="main-holder">
+        <h1 id="login-header">Login</h1>
+        
+        <div id="login-error-msg-holder">
+          <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
         </div>
+        
+        <form id="login-form">
+          <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
+          <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+          <input type="submit" value="Login" id="login-form-submit">
+        </form>
+      
+      </main>
 
-        <div class="field">
-            <div class="control">
-                <input class="input is-large" type="password" name="password" placeholder="Your Password">
-            </div>
-        </div>
-        <div class="field">
-            <label class="checkbox">
-                <input type="checkbox">
-                Remember me
-            </label>
-        </div>
-        <button class="button is-block is-info is-large is-fullwidth">Login</button>
-    </form>
-</div>
-</div>
-
-    
-    
+      <section></section>
     <footer>
         <div class="rounded-social-buttons">
             <a class="social-button facebook" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
