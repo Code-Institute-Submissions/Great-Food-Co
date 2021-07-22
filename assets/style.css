@@ -161,20 +161,20 @@ textarea{
 .rounded-social-buttons .fa-twitter,.fa-facebook-f,.fa-linkedin,.fa-youtube,.fa-instagram{
     font-size: 25px;
 }
-.rounded-social-buttons .social-button.facebook{
+.rounded-social-buttons .social-button .facebook{
     background: #3b5998;
 }
 
-.rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons.social-button.facebook:focus{
+.rounded-social-buttons .social-button .facebook:hover, .rounded-social-buttons.social-button.facebook:focus{
     color: #3b5998;
     background: #fefefe;
     border-color: #3b5998; 
 }
-.rounded-social-buttons .social-button.twitter {
+.rounded-social-buttons .social-button .twitter {
     background: #55acee;
 }
 
-.rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons.social-button.twitter:focus{
+.rounded-social-buttons .social-button .twitter:hover, .rounded-social-buttons.social-button.twitter:focus{
     color: #55acee;
     background: #fefefe;
     border-color: #55acee;
@@ -196,8 +196,8 @@ textarea{
     padding: 10px;
     text-align: center;
 }
+    /*login form*/
 
-/*Login form*/
 }
 body {
     width: 100%;
@@ -212,7 +212,7 @@ body {
     color: #fff;
     background: #5372F0;
 }
-.wraper{
+.wrapper{
     width: 380px;
     left: 50%;
     top: 50%;
@@ -226,24 +226,21 @@ body {
     box-shadow: 10px 10px 15px rgba(0,0,0.1);
 
 }
-
 .wrapper header{
     font-size: 35px;
     font-weight: 600;
 }
-
 .wrapper form{
     margin: 40px 0;
 }
-form.field{
+form .field{
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
-
 form .field.shake{
     animation: shake 0.3s ease-in-out;
 }
-@keyframes shake{
+@keyframes shake {
     0%,100%{
         margin-left: 0px;
     }
@@ -255,7 +252,7 @@ form .field.shake{
     }
 }
 
-form.field.input-area{
+form .field .input-area{
     height: 50px;
     width: 100%;
     position: relative;
@@ -273,13 +270,14 @@ form input{
     border-bottom-width: 2px;
     transition: all 0.2s ease;
 }
+--------------------------------------
 form .field input:focus,
-form .field.valid input{
+form .field .valid input{
  border-color: #5372F0;
 }
 
-form .field.shake input,
-form .field.error input{
+form .field .shake input,
+form .field .error input{
     border-color: #dc3545;
 }
 
@@ -307,14 +305,14 @@ color: #5372F0
 
 }
 
-form .field.shake input:focus ~ .icon,
-form .field.error input:focus ~ .icon{
+form .field .shake input:focus ~ .icon,
+form .field .error input:focus ~ .icon{
 color: #bfbfbf;
 }
 
 form input ::placeholder{
- color: #bfbfbf;
- font-size: 17px;
+    color: #bfbfbf;
+    font-size: 17px;
 }
 
 form .field .error-txt{
@@ -327,8 +325,8 @@ form .field .error{
     display: none;
 }
 
-form .field.shake .error,
-form .field.error .error{
+form .field .shake .error,
+form .field .error .error{
     display: block;
 }
 
@@ -337,17 +335,27 @@ form .pass-txt{
     margin-top: -10px;
 }
 
-.wraper a {
+.wrapper a {
     color: #5372F0;
     text-decoration: none; 
    }
    .wrapper a:hover{
        text-decoration: underline;
-
-   }
-
 }
-form input[type="submit"]:hover{
+form input[type="submit"]{
+    height: 50px;
+    margin-top: 30px;
+    color: #fff;
+    padding: 0;
+    border: none;
+    background: #5372F0;
+    cursor: pointer;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+
+form input[type= "submit"]:hover{
   
 }
 
