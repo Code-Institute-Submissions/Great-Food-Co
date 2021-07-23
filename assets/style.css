@@ -308,14 +308,13 @@ textarea{
   }
 
   /*login page results */
-  * {box-sizing: border-box;}
-  body {font-family: Verdana, sans-serif;}
+  
   .mySlides {display: none;}
   img {vertical-align: middle;}
   
   /* Slideshow container */
   .slideshow-container {
-    max-width: 1000px;
+    max-width: 100px;
     position: relative;
     margin: auto;
   }
@@ -378,6 +377,4 @@ textarea{
     .text {font-size: 11px}
   }
 
-  h2{
-      text-align: center;
-  }
+  
