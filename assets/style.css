@@ -433,7 +433,7 @@ form input[type= "submit"]:hover{
   /* Add styles to the form container */
   .container {
     position: absolute;
-    margin-bottom: 10%;
+ 
     left:40%;
     margin: 20px;
     max-width: 300px;
