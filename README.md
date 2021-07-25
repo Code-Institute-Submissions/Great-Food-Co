@@ -1,102 +1,321 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1 align="center">Great Food Co</h1>
 
-Welcome tomfinnegan,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. The last update to this file was: **July 2, 2021**
+[View the live project here.](https://github.com/tomfinnegan/Great-Food-Co)
 
-## Gitpod Reminders
+This website is one of many marketing tools for Great Food Co. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential 
+clients                               
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+  <img src="assets/images/942ba769f61768c72b071efd7cfe1fe6.jpg" width="#"></img>
+                                                    
+# User Experience (UX)
+ I want the website to be as easliy as possible for people to use and find all of the information they require on the menu.
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+ ## User stories ##
+ I wanted the website to engage with people so i decided to put images of the gym so people can see what the gym looks like.
+ there is information about our facilites and all of the classes we provide there is also a section dedicated to health benefits
+ of going to the gym be it physical and mental health exercise can help you it's also a great way to relive stress.
+ there is a dedicated contact us section which people can get in touch and leave comments about there experience of Tom's Gym.
+ the website is a great idea to give people motivation to get fit.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## First Time Visitor Goals:
+   1. For the first time visitor i want people to see feeback and comments from our members    
+   about there experience of the staff and personal trainers.	
+   2. For first time vistiors i want the website to be easy to navigate.
+   3. Target people who are new to the area of exercise and afraid of going to the gym
+      i want people to have a nice and calming experience of a gym environment.
 
-A blue button should appear to click: _Make Public_,
+## Returning Visitor Goals: 
+    1. As a Returning Visitor i want people to find more information about the gym, prices etc.
+    2. As a Returning Visitor i want people to find more about promotions and special challenges. 
+    3. As a Returning Visitor i want people to tell frends and family.
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+ ## Frequent User Goals:
+    1.  As a Frequent User i want people to check for seasonal challenges to get fit in time for summer or christmas.
+    2.  As a Frequent User i want people to check the website for giveways win holidays and other stuff.   
+    3.  As a Frequent user i want people to rate there experience. 
 
-To log into the Heroku toolbelt CLI:
+      
+Design
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### colour Scheme:
+     The top heading color is light grey and the different section colours are light blue.
+     There are a wide variety of colors  some are green, light grey, black, light blue, grey.
+            
+### Typography:
+    The main font is "EXO",sans-serif as a fall back in case "EXO" doesn't work.
+    Exo is a geometric sans serif font family. Its design started almost two years ago as way to discover typography in a more advanced way.
+    Exo is a very complete font family, it has 9 weights both in regular and true italic versions. Each font comes with a lot of opentype features such as small caps, ligatures, alternates, oldstyle figures, tabular figures, fractions, and more.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+Reference For the Information about the font family used in this website  is provided by the following  view link here [https://www.1001fonts.com/exo-font.html]
 
-------
+#### Imagery:
+    Images are visually important to website's the main image is desgined to be appealing and catch the user's
+    attention it's also to give people a feel for the gym
+               
+                   
+   <img src="df108841e32b5c03f5fb83c7e9edded8.jpg" width="#"></img>
 
-## Release History
+### Wireframes:
+    
+Desktop
+    [View the Wireframe here.](https://github.com/tomfinnegan/milestone-project2/blob/master/New%20Project%20(11).pdf)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+Mobile
+  [View the Wireframe here.](https://github.com/tomfinnegan/milestone-project2/blob/master/New%20Project%20(12).pdf)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+Tablet
+[View the Wireframe here.](https://github.com/tomfinnegan/milestone-project2/blob/master/New%20Project%20(7).pdf)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+[Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+ 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+ ## Features:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+   Responsive on all device sizes
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Technologies Used ##
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+ Languages Used:
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+ 
+ [HTML5](https://en.wikipedia.org/wiki/HTML5)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+ [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+  
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Frameworks, Libraries & Programs Used
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
 
-## FAQ about the uptime script
+[Bootstrap 4.5.3:]
+(https://getbootstrap.com/docs/4.4/getting-started/introduction/)
 
-**Why have you added this script?**
+[reference for the text on bootstrap is]  
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+(https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework))
 
-**How will this affect me?**
+Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.
+It contains CSS- and (optionally) JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+[Hover.css:]
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+(https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_social_media_buttons2)
 
-**So….?**
+Hover.css was used on the Social Media icons in the footer
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
 
-**Can I opt out?**
+ [Google Fonts:](https://fonts.google.com/)
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+Google fonts were used to import the 'EXO, sans-serif'  font into the style.css file which is used on all pages throughout the project.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+ [Font Awesome:](https://fontawesome.com/)
+ 
+ Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 
-**Anything more?**
+ ##  About GitHub Pages:
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website.
+You can see examples of GitHub Pages sites in the GitHub Pages examples collection.
+You can host your site on GitHub's github.io domain or your own custom domain.
+For more information, see "Using a custom domain with GitHub Pages."
+If your project site is published from a private or internal repository owned by an organization using GitHub Enterprise Cloud, you can manage access control for the site.
+ For more information, see "Changing the visibility of your GitHub Pages site."
+        [GitHub:](https://docs.github.com/en/github/working-with-github-pages/about-github-pages#:~:text=%20In%20this%20article%20%201%20About%20GitHub,branch%20and...%204%20Further%20reading.%20%20More%20)
+    
+GitHub is used to store the projects code after being pushed from Git.   
+   
+The project was deployed to GitHub Pages using the following steps...
 
----
+1.Log in to GitHub and locate the GitHub Repository
 
-Happy coding!
+
+2 .At the top of the Repository locate the settings on the menu
+
+3.Move down page till you locate the "GitHub pages" section
+
+4.Under the "Source" click the dropdown called "None" and select "Master Branch"
+
+5.The page will automatically refresh
+
+6.scroll down through the page to locate the now published site link in the "GitHub pages" section
+
+ <h2>Making a Local Clone</h2>
+
+ 1.Log in to GitHub and locate the GitHub Repository
+
+  2.under the repository name click "Clone or download"
+
+ 3.Too clone the Repository using HTTPS under   "Clone with HTTPS" copy the link
+
+ 4.Open git Bash
+
+ 5.Change the current working directory to the location where you want the cloned directory to be made
+
+ 6.Type git clone and paste the url of your website 
+
+ the command should look like the following git clone https://github.com/https://tomfinnegan.github.io/milestone-project2/
+
+7. the running command should look like the following
+
+<img src="git clone.PNG" width="#"></img>
+
+
+
+
+
+  ## Testing 
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - 
+
+
+Testing User Stories from User Experience (UX) Section
+
+
+### Testing User Stories from User Experience (UX) Section
+
+-   ### First Time Visitor Goals
+
+  1. As a First Time Visitor i want people to understand the websites goal
+
+
+  2. When people enter the site they can navigate easy because of the top navbar it has a dark grey color so people attention 
+    are drawn to the navigation area
+
+  3. the main points of the website are the images and text   
+ 
+  4.To promote Tom's Gym and get more clients 
+  5.To help people achive there fitness goals
+## Further Testing
+
+The Website was tested on  Internet Explorer
+The website was viewed on a variety of devices such as Desktop, Laptop,Tablet
+ It is responsive on all devices
+## Known Bugs
+
+Some white space between opening hours and google maps and membership options
+and contact us  
+ 
+                   
+                    Some images of the webiste below 
+
+ <img src="contactform.PNG" width="#"></img>
+
+## Google Maps
+ 
+ I provided a google maps to find the location of the gym easily  from any where just follow the directions 
+
+<img src="maps.PNG" width="#"></img> 
+
+## Bennefits of Gym
+<img src="benefits.PNG" width="#"></img>
+
+ ## Images of the gym
+
+<img src="assets/images/1008451154-Gyms_01_usethisversion-1226x0-c-default.jpg" width="15%"></img>
+<img src="assets/images/CS_fitness-center-scaled.jpg" width="15%"></img>
+<img src="assets/images/df108841e32b5c03f5fb83c7e9edded8.jpg" width="15%"></img>
+<img src="assets/images/LAFitness .jpg" width="15%"></img>
+
+
+## features:
+
+Responsive website on devices 
+Google maps to help find the location of the gym
+
+   
+Credits:
+
+Content 
+
+The text for section for about us was copied from https://www.rawgyms.com/classes/
+ 
+ Some text for ideas to create the  readme .md  was obtainted from the following website
+ 
+
+ https://github.com/Code-Institute-Solutions/SampleREADME
+
+ Media: 
+ The photos used in this site were obtained from the following website:
+ https://www.bing.com/images/search?q=gym+facilities+images&qpvt=gym+facilities+images&form=IQFRML&first=1&tsc=ImageBasicHover&cw=1519&ch=690
+
+ 
+Acknowledgements:
+
+Google fonts
+bing for the image
+raw gyms for paragraph text
+
+ami.responsivedesgin.is/#
+
+Code Institute for text for the   README .md
+
+ 
+
+## Testing on w3cvalidator:
+All pages with errors and pages passed were shown below in images 
+
+                         ** Index page passed **
+
+<img src="index.PNG" width="#"></img>
+
+
+
+
+                      **Facilities page with error**
+
+<img src="facilliteserror.PNG" width="#"></img>
+
+
+                        **Facilites page with no error **
+
+
+<img src="facilites.PNG" width="#"></img>
+
+
+
+                         ** Classes page no error's **
+
+<img src="classes.PNG" width="#"></img>
+
+
+
+                        ** Benefits page no error **  
+
+<img src="benefitss.PNG" width="#"></img>
+
+
+
+                        ** Contact us page no error **
+<img src="contactus.PNG" width="#"></img>
+  
+                          ** CSS  With Error's **
+
+<img src="csserrosnew.PNG" width="#"></img>
+
+                           ** CSS Without Error's **
+
+
+<img src="csserrorfree.PNG" width="#"></img>
+
+                        
+
+
+Reference below is from the following website [https://www.sitepoint.com/community/t/css-validation-unknown-vendor-extensions/125616]
+
+                        ** Validation unknown vendor extensions **
+
+There is nothing you can do to validate vendor extensions except to not use them. 
+Please explain to your client that there is nothing you can do about this since those errors will help support browser compatibility efforts.
+ The validator only validates against valid code. The vendor extensions are proprietary code.
+ As such it will always be invalid.
