@@ -1,7 +1,7 @@
-<h1 align="center">Great Food Co</h1>
+<h1 align="center">Lovely Food Co</h1>
 
 
-[View the live project here.](https://github.com/tomfinnegan/Great-Food-Co)
+[View the live project here.](https://github.com/tomfinnegan/Lovely-Food-Co)
 
 This website is one of many marketing tools for Great Food Co. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential 
 clients                               
@@ -28,7 +28,7 @@ clients
    with the busssiness online.
 
 ## Returning Visitor Goals: 
-    1. As a Returning Visitor i want people to find more information about the good food co  etc.
+    1. As a Returning Visitor i want people to find more information about the lovely food co  etc.
     2. As a Returning Visitor i want people to find more about promotions and special offers. 
     3. As a Returning Visitor i want people to tell frends and family.
 
@@ -42,13 +42,12 @@ clients
 Design
 
 ### colour Scheme:
-     The top heading color is blue and the different section colours are light blue.
-     There are a wide variety of colors  some are green, light grey, black, light blue, grey.
+     The top heading color is blue and the footer is blue
             
-### Typography:
-    The main font is "EXO",sans-serif as a fall back in case "EXO" doesn't work.
-    Exo is a geometric sans serif font family. Its design started almost two years ago as way to discover typography in a more advanced way.
-    Exo is a very complete font family, it has 9 weights both in regular and true italic versions. Each font comes with a lot of opentype features such as small caps, ligatures, alternates, oldstyle figures, tabular figures, fractions, and more.
+### Typography: 
+
+   i have used a number of different fornts for different aspects of the web page     font-family: Arial, Helvetica, sans-serif;font is "Helvetica",sans-serif as a fall back in case "EXO" doesn't work.
+    in typography and lettering, a sans-serif, sans serif, gothic, or simply sans letterform is one that does not have extending features called "serifs" at the end of strokes. Sans-serif typefaces tend to have less stroke width variation than serif typefaces. They are often used to convey simplicity and modernity or minimalism.
 
 Reference For the Information about the font family used in this website  is provided by the following  view link here [https://www.1001fonts.com/exo-font.html]
 
@@ -57,20 +56,13 @@ Reference For the Information about the font family used in this website  is pro
     attention it's also to give people a feel for the gym
                
                    
-   <img src="df108841e32b5c03f5fb83c7e9edded8.jpg" width="#"></img>
+   <img src="assets/images/942ba769f61768c72b071efd7cfe1fe6.jpg"width="#"></img>
 
 ### Wireframes:
     
-Desktop
-    [View the Wireframe here.](https://github.com/tomfinnegan/milestone-project2/blob/master/New%20Project%20(11).pdf)
 
-Mobile
-  [View the Wireframe here.](https://github.com/tomfinnegan/milestone-project2/blob/master/New%20Project%20(12).pdf)
 
-Tablet
-[View the Wireframe here.](https://github.com/tomfinnegan/milestone-project2/blob/master/New%20Project%20(7).pdf)
-
-[Balsamiq:](https://balsamiq.com/)
+[Balsamiq:](https://balsamiq.cloud/sqg7em0/pwxfqnu/r2278)
     - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
  
 
@@ -88,9 +80,11 @@ Tablet
  [HTML5](https://en.wikipedia.org/wiki/HTML5)
 
  [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
-  
+
+ [python/flask](https://en.wikipedia.org/wiki/Flask_(web_framework)) 
 
 ### Frameworks, Libraries & Programs Used
+
 
 
 
