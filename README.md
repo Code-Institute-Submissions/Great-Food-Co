@@ -157,9 +157,6 @@ The project was deployed to GitHub Pages using the following steps...
 
  the command should look like the following git clone https://github.com/https://tomfinnegan.github.io/milestone-project2/
 
-7. the running command should look like the following
-
-<img src="git clone.PNG" width="#"></img>
 
 
 
@@ -183,74 +180,61 @@ Testing User Stories from User Experience (UX) Section
   1. As a First Time Visitor i want people to understand the websites goal
 
 
-  2. When people enter the site they can navigate easy because of the top navbar it has a dark grey color so people attention 
+  2. When people enter the site they can navigate easy because of the top navbar it has a blue color so people attention 
     are drawn to the navigation area
 
   3. the main points of the website are the images and text   
  
-  4.To promote Tom's Gym and get more clients 
-  5.To help people achive there fitness goals
+  4. To promote lovely food and get more clients 
+  5. To help people interact with the website
 ## Further Testing
 
 The Website was tested on  Internet Explorer
 The website was viewed on a variety of devices such as Desktop, Laptop,Tablet
  It is responsive on all devices
-## Known Bugs
 
-Some white space between opening hours and google maps and membership options
-and contact us  
  
                    
                     Some images of the webiste below 
 
- <img src="contactform.PNG" width="#"></img>
+ <img src="assets/images/kebabs.jpg" width="#"></img>
 
-## Google Maps
- 
- I provided a google maps to find the location of the gym easily  from any where just follow the directions 
 
-<img src="maps.PNG" width="#"></img> 
 
-## Bennefits of Gym
-<img src="benefits.PNG" width="#"></img>
 
- ## Images of the gym
 
-<img src="assets/images/1008451154-Gyms_01_usethisversion-1226x0-c-default.jpg" width="15%"></img>
-<img src="assets/images/CS_fitness-center-scaled.jpg" width="15%"></img>
-<img src="assets/images/df108841e32b5c03f5fb83c7e9edded8.jpg" width="15%"></img>
-<img src="assets/images/LAFitness .jpg" width="15%"></img>
+ ## Images of the lovely food co
+
+<img src="assets/images/chips.jpg" width="15%"></img>
+<img src="assets/images/Irish-Pub-Salad-1.jpg" width="15%"></img>
+<img src="assets/images/korean.jpg" width="15%"></img>
 
 
 ## features:
 
 Responsive website on devices 
-Google maps to help find the location of the gym
+
 
    
 Credits:
 
 Content 
 
-The text for section for about us was copied from https://www.rawgyms.com/classes/
+
  
  Some text for ideas to create the  readme .md  was obtainted from the following website
  
 
- https://github.com/Code-Institute-Solutions/SampleREADME
 
- Media: 
- The photos used in this site were obtained from the following website:
- https://www.bing.com/images/search?q=gym+facilities+images&qpvt=gym+facilities+images&form=IQFRML&first=1&tsc=ImageBasicHover&cw=1519&ch=690
 
+ 
  
 Acknowledgements:
 
 Google fonts
 bing for the image
-raw gyms for paragraph text
 
-ami.responsivedesgin.is/#
+
 
 Code Institute for text for the   README .md
 
@@ -261,46 +245,34 @@ All pages with errors and pages passed were shown below in images
 
                          ** Index page passed **
 
-<img src="index.PNG" width="#"></img>
+<img src="assets/images/index.html.lovelyfood.PNG" width="#"></img>
 
 
 
 
-                      **Facilities page with error**
 
-<img src="facilliteserror.PNG" width="#"></img>
-
-
-                        **Facilites page with no error **
+                        **login page with no error **
 
 
-<img src="facilites.PNG" width="#"></img>
+<img src="logingoodfooderrorfree.PNG" width="#"></img>
 
 
 
-                         ** Classes page no error's **
+                         ** signup page no error's **
 
-<img src="classes.PNG" width="#"></img>
-
-
-
-                        ** Benefits page no error **  
-
-<img src="benefitss.PNG" width="#"></img>
+<img src="assets/images/signupgoodfooerrorfree.PNG" width="#"></img>
 
 
 
-                        ** Contact us page no error **
-<img src="contactus.PNG" width="#"></img>
-  
-                          ** CSS  With Error's **
 
-<img src="csserrosnew.PNG" width="#"></img>
+
+
+
 
                            ** CSS Without Error's **
 
 
-<img src="csserrorfree.PNG" width="#"></img>
+<img src="csseroorfreelovelyfood.PNG" width="#"></img>
 
                         
 
