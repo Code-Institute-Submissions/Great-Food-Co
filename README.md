@@ -14,27 +14,27 @@ clients
 
 
  ## User stories ##
- I wanted the website to engage with people so i decided to put images of the gym so people can see what the gym looks like.
- there is information about our facilites and all of the classes we provide there is also a section dedicated to health benefits
- of going to the gym be it physical and mental health exercise can help you it's also a great way to relive stress.
- there is a dedicated contact us section which people can get in touch and leave comments about there experience of Tom's Gym.
- the website is a great idea to give people motivation to get fit.
+ I wanted the website to engage with people so i decided to put images of the menus available so people can see what the food looks like.
+ there is information about our ingredients
+  and all of the food  we provide there is also a section about  benefits
+ of food.
+ there is a dedicated login section which people can get in touch there is 
+ also a signup page so pepole can signup for offers on food
 
 ## First Time Visitor Goals:
-   1. For the first time visitor i want people to see feeback and comments from our members    
-   about there experience of the staff and personal trainers.	
+   1. For the first time visitor i want people to see feeback and comments from our customers    
    2. For first time vistiors i want the website to be easy to navigate.
-   3. Target people who are new to the area of exercise and afraid of going to the gym
-      i want people to have a nice and calming experience of a gym environment.
+   3. Target people who are new to the  concept of ordering food and interacting
+   with the busssiness online.
 
 ## Returning Visitor Goals: 
-    1. As a Returning Visitor i want people to find more information about the gym, prices etc.
-    2. As a Returning Visitor i want people to find more about promotions and special challenges. 
+    1. As a Returning Visitor i want people to find more information about the good food co  etc.
+    2. As a Returning Visitor i want people to find more about promotions and special offers. 
     3. As a Returning Visitor i want people to tell frends and family.
 
 
  ## Frequent User Goals:
-    1.  As a Frequent User i want people to check for seasonal challenges to get fit in time for summer or christmas.
+    1.  As a Frequent User i want people to check for seasonal offers in the summer and seasonal food changes.
     2.  As a Frequent User i want people to check the website for giveways win holidays and other stuff.   
     3.  As a Frequent user i want people to rate there experience. 
 
@@ -42,7 +42,7 @@ clients
 Design
 
 ### colour Scheme:
-     The top heading color is light grey and the different section colours are light blue.
+     The top heading color is blue and the different section colours are light blue.
      There are a wide variety of colors  some are green, light grey, black, light blue, grey.
             
 ### Typography:
