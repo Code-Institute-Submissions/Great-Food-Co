@@ -1,20 +1,20 @@
-
 <?php
-// define variables and set to empty values
-$name = $email = $gender = $comment = $website = "";
+// connect to FTP server
+$ftp_server = "ftp.example.com";
+$ftp_conn = ftp_connect($ftp_server) or die("Could not connect to $ftp_server");
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  $name = test_input($_POST["name"]);
-  $email = test_input($_POST["email"]);
-  $website = test_input($_POST["website"]);
-  $comment = test_input($_POST["comment"]);
-  $gender = test_input($_POST["gender"]);
-}
+// login
+if (@ftp_login($ftp_conn, $ftp_username, $ftp_userpass))
+  {
+  echo "Connection established.";
+  }
+else
+  {
+  echo "Couldn't establish a connection.";
+  }
 
-function test_input($data) {
-  $data = trim($data);
-  $data = stripslashes($data);
-  $data = htmlspecialchars($data);
-  return $data;
-}
+// do something...
+
+// close connection
+ftp_close($ftp_conn);
 ?>
